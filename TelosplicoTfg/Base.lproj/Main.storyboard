@@ -21,7 +21,7 @@
                                 <rect key="frame" x="16" y="389" width="343" height="34"/>
                                 <color key="backgroundColor" red="0.95686274510000002" green="0.86274509799999999" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" name="AccentColor"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Usuario" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aya-Xe-g2Z">
@@ -164,13 +164,27 @@
                                                 <color key="textColor" red="0.30980392159999998" green="0.1960784314" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GCE-I7-hVJ">
+                                                <rect key="frame" x="16" y="201.33333333333337" width="353" height="112"/>
+                                                <string key="text">TelosPlico es la mejor aplicación
+para buscar profesores particulares
+cerca de tí. Si eres profesor puedes
+ofertar tus clases y gestionarlas
+comodamente. </string>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
+                                                <color key="textColor" red="0.30980392159999998" green="0.1960784314" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstItem="nTM-cg-zUu" firstAttribute="centerY" secondItem="V4s-zc-xQz" secondAttribute="centerY" id="83F-Dq-YgO"/>
+                                            <constraint firstItem="GCE-I7-hVJ" firstAttribute="top" secondItem="V4s-zc-xQz" secondAttribute="bottom" constant="84" id="Bdd-oz-faf"/>
                                             <constraint firstItem="V4s-zc-xQz" firstAttribute="top" secondItem="CvB-a4-S5C" secondAttribute="top" constant="77" id="FmH-m7-4B8"/>
                                             <constraint firstItem="V4s-zc-xQz" firstAttribute="leading" secondItem="nTM-cg-zUu" secondAttribute="trailing" constant="18" id="Lsi-Gc-aUc"/>
+                                            <constraint firstItem="GCE-I7-hVJ" firstAttribute="leading" secondItem="CvB-a4-S5C" secondAttribute="leading" constant="16" id="P8u-RG-kKw"/>
                                             <constraint firstAttribute="trailing" secondItem="V4s-zc-xQz" secondAttribute="trailing" constant="24" id="gyh-6e-Z5k"/>
+                                            <constraint firstAttribute="trailing" secondItem="GCE-I7-hVJ" secondAttribute="trailing" constant="16" id="vW3-wU-Xp1"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -275,7 +289,7 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="tintColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
